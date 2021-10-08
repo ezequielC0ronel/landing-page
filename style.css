@@ -50,6 +50,11 @@ body{
     color: #E5E7EB;
 }
 
+.hero-image img{
+    width: auto;
+    height: 300px;
+}
+
 button{
     background-color: #3882F6;
     width: 100px;
