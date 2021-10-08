@@ -50,6 +50,17 @@ body{
     color: #E5E7EB;
 }
 
+button{
+    background-color: royalblue;
+    width: 100px;
+    border-radius: 8px;
+    border-style: none;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 ul{
     list-style: none;
     padding: 0;
