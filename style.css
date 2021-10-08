@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     overflow: hidden;
     display: flex;
@@ -38,6 +38,16 @@ body{
     display: flex;
     width: 400px;
     flex-direction: column;
+}
+
+.hero-info h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-info p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul{
