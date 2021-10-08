@@ -10,9 +10,8 @@ body{
 .header{
     display: flex;
     height: 72px;
-    padding: 0 16px;
+    padding: 0 90px;
     align-items: center;
-    justify-content: space-around;
     background-color: #1F2937;
     color: white;
     font-size: 24px;
@@ -22,6 +21,8 @@ body{
     display: flex;
     gap: 16px;
     font-size: 18px;
+    color: #E5E7EB;
+    margin-left: auto;
 }
 
 
