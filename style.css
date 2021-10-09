@@ -32,6 +32,7 @@ body{
     padding: 90px;
     background-color: #1F2937;
     color: #F9FAF8;
+    gap: 8px;
 }
 
 .hero-info{
@@ -53,6 +54,13 @@ body{
 .hero-image img{
     width: auto;
     height: 300px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
