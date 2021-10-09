@@ -1,7 +1,7 @@
 body{
     /* height: 100vh; */
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', Arial;
@@ -73,6 +73,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 button{
