@@ -61,6 +61,18 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #1F2937;
+}
+
+.info h2{
+    font-size: 36px;
+    margin: 0;
+}
+
+.info-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
