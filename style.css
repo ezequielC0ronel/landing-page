@@ -55,6 +55,10 @@ body{
     height: 300px;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+}
 
 button{
     background-color: #3882F6;
