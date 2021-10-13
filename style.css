@@ -58,18 +58,47 @@ body{
 .info{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .info h1{
     font-size: 36px;
     font-weight: bolder;
+    margin: 0;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 40px;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+.info-card p{
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.image{
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
 }
 
 button{
     background-color: #3882F6;
     width: 100px;
-    border-radius: 8px;
+    border-radius: 8px; 
     border-style: none;
     padding: 8px 16px;
     color: white;
