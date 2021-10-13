@@ -95,6 +95,33 @@ body{
     border-radius: 16px;
 }
 
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote-text{
+    width: 760px;
+}
+
+.quote-mainText, .quote-owner{
+    margin: 0;
+    color: #1F2937;
+}
+
+.quote-mainText{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-owner{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
 button{
     background-color: #3882F6;
     width: 100px;
