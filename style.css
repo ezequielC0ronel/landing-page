@@ -122,6 +122,43 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    color: white;
+}
+
+.cta-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 16px;
+}
+
+.cta-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cta-info h1{
+    margin-bottom: 0;
+}
+
+.cta-info p{
+    margin-top: 0;
+}
+
+.cta-card button{
+    border: 2px solid white;
+}
+
 button{
     background-color: #3882F6;
     width: 100px;
